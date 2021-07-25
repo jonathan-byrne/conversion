@@ -1,6 +1,6 @@
 package com.ayo.conversion;
 
-import com.ayo.conversion.controller.ConverterController;
+import com.ayo.conversion.controller.InchesCentimetersController;
 import com.ayo.conversion.converter.Converter;
 import com.ayo.conversion.converter.InchesToCentimetersConverter;
 import org.junit.Assert;
@@ -15,7 +15,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 
 @RunWith(SpringRunner.class)
-@WebMvcTest(ConverterController.class)
+@WebMvcTest(InchesCentimetersController.class)
 public class InchesAndCentimetersIntegrationTests {
 
     @Autowired
